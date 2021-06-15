@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.mutableStateOf
@@ -13,12 +12,11 @@ import jp.kaleidot725.counter.shared.MyCounter
 import androidx.compose.runtime.setValue
 import androidx.compose.runtime.getValue
 
+val counter = MyCounter(min = 0, max = 100)
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        val counter = MyCounter(min = 0, max = 100)
-
         setContent {
             var count by remember { mutableStateOf(counter.value) }
 
