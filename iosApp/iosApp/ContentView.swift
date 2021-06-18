@@ -7,6 +7,7 @@ struct ContentView: View {
     @State var count = counter.value
     
     var body: some View {
+        
         VStack {
             Text(String(count))
             
