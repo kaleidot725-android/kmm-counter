@@ -207,7 +207,6 @@ class MainActivity : AppCompatActivity() {
 ビルドして動かしてみるしっかりインクリメントとデクリメントされた値が表示されます。MyCounter で実装した最小値と最大値の制御もうまく動作して問題なくコードが共有できていることがわかります。
 
 [![Image from Gyazo](https://i.gyazo.com/8674d20e89215c8397b206009c1688e6.gif)](https://gyazo.com/8674d20e89215c8397b206009c1688e6)
-
 [![Image from Gyazo](https://i.gyazo.com/47af737b4a080b867dbf51190509d737.gif)](https://gyazo.com/47af737b4a080b867dbf51190509d737)
 
 # おわりに
